@@ -1,0 +1,3 @@
+Este é o nosso novo projeto de site. I2M é um site de informações sobre instrumentos, mas ainda está em desenvolvimento.
+Para acompanhar o desenvolvimento tem esse link:
+http://i2minstrumento.000webhostapp.com

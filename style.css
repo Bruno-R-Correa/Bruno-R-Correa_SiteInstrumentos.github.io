@@ -1,0 +1,45 @@
+body{
+	background-color: rgba(100,100,256,0.1);
+}
+#titulo{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color:navy;
+	font-size: 6vh;
+}
+.alinhati{
+	text-align: center;
+	margin: 10%;
+	color: rgba(200,215,236,1);
+	font-style: bold;
+	font-family: 'Fantasy';
+}
+.alinhate{
+	text-align: center;
+	margin: 10%;
+	color: white;
+	font-family: 'Broadway';
+	background-color: rgba(110,110,110,0.5);
+}
+p,.lista{
+	font-family: 'MV BOLI';
+	font-size: 3vh; 
+}
+.nome{
+	font-family: 'Roboto', sans-serif;
+	color:navy;
+	font-size: 3vh; 
+	text-align: center;
+}
+.imagens{
+	width: 5vh;
+	height: 10vh;
+}
+form{
+	text-align: center;
+}
+
+.estilo{
+	width: 90%;
+	background-color: lightgray;
+}
