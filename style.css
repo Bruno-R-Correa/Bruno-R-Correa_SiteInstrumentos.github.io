@@ -43,3 +43,18 @@ form{
 	width: 90%;
 	background-color: lightgray;
 }
+
+#formataDiv{
+    margin: 15%;
+    margin-top:3%;
+    height: 100vh;
+    width: 70%;
+    padding: 0%;
+    border: 2px dashed navy;
+}
+
+#formataP{
+    border: 1px dotted navy;
+    padding: 1%;
+    text-align:justify;
+}

@@ -1,3 +1,5 @@
+Bruno Ricardo Corrêa 19118 2TINFD
+Matheus Mastelini 19139 2TINFD
 Este é o nosso novo projeto de site. I2M é um site de informações sobre instrumentos, mas ainda está em desenvolvimento.
 Para acompanhar o desenvolvimento tem esse link:
-http://i2minstrumento.000webhostapp.com
+https://bruno-r-correa.github.io/SiteInstrumentos.github.io/
