@@ -38,7 +38,16 @@
 	</nav>
 	<!--Fim da navbar-->
 
-	<div class="container-fluid" >	
+	<div class="container-fluid" >
+		<div class="row">
+			  <nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+				  <li class="breadcrumb-item"><a href="index.html">I2M</a></li>
+				  <li class="breadcrumb-item"><a href="#">Instrumentos</a></li>
+				  <li class="breadcrumb-item active" aria-current="page">Piano</li>
+				</ol>
+			  </nav>
+		</div>
 		<div class="row">
 			<div class="col">
 			<br>
@@ -46,21 +55,26 @@
 			<br>
 			</div>
 		</div>
-
+		<div class="btn-group" role="group" aria-label="Basic example">
+			<button type="button" class="btn btn-dark"><a href="#cauda">Cauda</a></button>
+			<button type="button" class="btn btn-dark"><a href="#vertical">Vertical</a></button>
+			<button type="button" class="btn btn-dark"><a href="#digital">Digital</a></button>
+		</div>
 		<br>
-		<div class="row">
+		<br>
+		<div class="row" id="cauda">
 			<div class=" tabela col-sm-12 col-lg-4 col-md-4 text-centered">
 			<p>Esse é o tipo de piano mais conhecido. Também chamado de horizontal, o piano de cauda possui uma caixa harmônica robusta e cordas compridas, que fazem seu som agradável e encorpado se dissipar mais alto pelo ambiente.</p>
 			</div>
           <!--Card 1-->
 			<div class="tabela col-sm-12 col-lg-4 col-md-4 text-centered">
-				<div class="card ">
+				<div class="card">
 					<div class="card-body">
 						<h5 class="card-title lead nome">Piano de Cauda</h5>
 					</div>
-          			<img src="midia/cauda.png" class="img-fluid rounded" alt="Telecaster">  
-        		</div> 
-        	</div> 
+          			<img src="midia/cauda.png" class="img-fluid rounded" alt="Piano de Cauda">
+        		</div>
+        	</div>
         	<div class=" tabela col-sm-12 col-lg-4 col-md-4 text-centered">
         	<p>O tamanho do instrumento influencia diretamente no número de teclas e pedais. Esse tipo de piano é muito usado em ambientes amplos e de boa acústica, como concertos e teatros. Mas também é comum tê-los em casas, já que são bastante resistentes. O maior cuidado é de manter o ambiente arejado, para evitar que o piano desafine com frequência.</p>
         	</div>
@@ -77,7 +91,7 @@
 			</div>
 		<br>
 		<hr>
-		<div class="row">
+		<div class="row" id="vertical">
 			<div class=" tabela col-sm-12 col-lg-4 col-md-4 text-centered">
 			<p>O piano vertical, também conhecido como piano de armário, recebeu esse nome devido ao seu tamanho reduzido. Suas medidas variam de 1m a 1,5m e suas cordas ficam estendidas na vertical. Por conta disso, seu timbre é pouco profundo e o som do instrumento se dissipa em volume mais baixo do que o piano de cauda.</p>
 			</div>
@@ -87,8 +101,8 @@
 					<div class="card-body">
 						<h5 class="card-title lead nome">Piano Vertical</h5>
 					</div>
-          			<img src="midia/vertical.png" class="img-fluid rounded" alt="Telecaster">  
-        		</div>  
+          			<img src="midia/vertical.png" class="img-fluid rounded" alt="Piano Vertical">
+        		</div>
         	</div>
         	<div class=" tabela col-sm-12 col-lg-4 col-md-4 text-centered">
         	<p>O piano vertical é uma boa escolha para se ter em ambientes menores, já que é possível encostá-lo na parede sem causar problemas na afinação. Isso o torna uma opção, por exemplo, para quem busca um piano apenas para praticar.</p>
@@ -106,7 +120,7 @@
 			</div>
 		<br>
 		<hr>
-		<div class="row">
+		<div class="row" id="digital">
 			<div class=" tabela col-sm-12 col-lg-4 col-md-4 text-centered">
 			<p>O piano digital foi projetado para reproduzir sons como o piano acústico sem a necessidade de cordas, ou seja, gerando os sons de forma eletrônica. Por ser compacto e mais simples de produzir, ele acaba se tornando uma opção mais em conta, oferecendo um bom custo-benefício.</p>
 			</div>
@@ -114,10 +128,10 @@
 				<div class="card">
 					<div class="card-body">
 						<h5 class="card-title lead nome">Piano Digital</h5>
-					</div>	
-          			<img src="midia/digital.png" class="img-fluid rounded" alt="Telecaster">  
+					</div>
+          			<img src="midia/digital.png" class="img-fluid rounded" alt="Piano Digital">
           		</div>
-        	</div>  
+        	</div>
         	<div class=" tabela col-sm-12 col-lg-4 row-md-12 text-centered">
         	<p>Seu maior diferencial são os botões de gravação de sequências musicais, uma ferramenta que permite gravar arranjos e reproduzir simultaneamente enquanto você toca. Ideal para quem estuda música e quer programar acompanhamentos musicais.</p>
         	</div>
@@ -133,7 +147,6 @@
 			  </div>
 			</div>
 	</div>
-	
 
 
 
