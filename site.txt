@@ -3,3 +3,6 @@ Matheus Mastelini 19139 2TINFD
 Este é o nosso novo projeto de site. I2M é um site de informações sobre instrumentos, mas ainda está em desenvolvimento.
 Para acompanhar o desenvolvimento tem esse link:
 https://bruno-r-correa.github.io/SiteInstrumentos.github.io/
+
+O log_modifications possue os maiores detalhes sobre as atualizações:
+Alert,Badge,Breadcrumb,Button Group
