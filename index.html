@@ -5,8 +5,8 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="	sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<link href="darkmode.css" rel="stylesheet" id="theme">
 		<link href="style.css" rel="stylesheet">
-		<link href="dark.css" rel="stylesheet">
 		<title>HOME</title>
 		<script src="https://kit.fontawesome.com/6b28b39374.js" crossorigin="anonymous"></script>
 	</head>
@@ -38,7 +38,13 @@
  	         <div class="dropdown-divider"></div>
  	         <a class="dropdown-item branquin" href="peticao.html">Petição para outros instrumentos <span class="badge badge-success">New</span></a>
  	       </div>
- 	     </li>
+		  </li>
+		  <li>
+			  <label class="switch">
+				<input type="checkbox" onclick="toggleTheme()">
+				<span class="slider round"></span>
+			</label>
+		  </li>
  	   </ul>
 	  </div>
 	</nav>
@@ -100,6 +106,22 @@
 
 		</div>
 	</div>
+	
+
+	<script>
+		function toggleTheme(){
+			let css = document.getElementById('theme');
+			console.log('apertou');
+			
+			console.log(css.href);
+			if(css.href.includes('darkmode.css')){
+				css.setAttribute('href', 'lightmode.css');
+			}else{
+				css.setAttribute('href', 'darkmode.css');
+			}
+		}
+	</script>
+
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
  	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
  	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script> 
